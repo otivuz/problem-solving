@@ -25,8 +25,8 @@ function budgetCalculator(watch, phone, laptop) {
     else if (watch % 1 != 0 || phone % 1 != 0 || laptop % 1 != 0) {
         return console.log("watch, phone or laptop can not be fractional");
     }
-    var totalPrice = (watch * 50) + (phone * 100) + (laptop * 500);
-    return totalPrice;
+    var totalBudget = (watch * 50) + (phone * 100) + (laptop * 500);
+    return totalBudget;
 }
 
 // function to calculate hotel cost
